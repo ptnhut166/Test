@@ -5,7 +5,7 @@ from datetime import datetime
 
 st.set_page_config(
     page_title="Stock Tool",
-    page_icon="📈",
+    page_icon="",
 )
 
 #ticker search feature in sidebar
