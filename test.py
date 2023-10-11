@@ -2,7 +2,7 @@
 import streamlit as st
 import yfinance as yf
 from datetime import datetime
-
+from datetime import date
 
 
 #ticker search feature in sidebar
@@ -12,8 +12,12 @@ button_clicked = st.button("SEARCH")
 if button_clicked == "SEARCH":
     main()
 
-#output the full name
+#input start date
+year = int(input('Enter a year: '))
+month = int(input('Enter a month: '))
+day = int(input('Enter a day: '))
 
+start_date = date(year, month, day)
 
 #main function
 def main():
@@ -21,7 +25,7 @@ def main():
     #get data on searched ticker
     stock_data = yf.Ticker(selected_stock)
     #get historical data for searched ticker
-    stock_df = stock_data.history(period='1d', start='2020-01-01', end=None)
+    stock_df = stock_data.history(period='1d', start=start_date, end=None)
     #print line chart with daily closing prices for searched ticker
     st.line_chart(stock_df.Close)
 
