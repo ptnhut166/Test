@@ -2,7 +2,7 @@
 import streamlit as st
 import yfinance as yf
 from datetime import datetime
-from datetime import date
+
 
 
 #ticker search feature in sidebar
