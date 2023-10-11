@@ -5,3 +5,4 @@ numpy
 prophet
 plotly
 datetime
+date
