@@ -1,8 +1,5 @@
 yfinance
 streamlit
-pandas
-numpy
 prophet
 plotly
 datetime
-date
