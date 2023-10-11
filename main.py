@@ -8,6 +8,12 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objects as go
 
+
+st.set_page_config(
+    page_title="Hello",
+    page_icon="👋",
+)
+
 st.title("Facebook Prophet - Stock Price Prediction")
 st.write("This is a demonstrator app created on Streamlit to show a use case of the Facebook Prophet "
          "timeseries model to forecast stock market data.")
