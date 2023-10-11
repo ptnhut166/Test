@@ -48,7 +48,3 @@ if __name__ == "__main__":
     main()
 
 
-add_selectbox=st.sidebar.selectbox(
-    "What feature are you looking for?",
-    ("Stock Information", "Forecast with Algorithm", "Trading bot")
-)
