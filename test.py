@@ -3,7 +3,10 @@ import streamlit as st
 import yfinance as yf
 from datetime import datetime
 
-
+st.set_page_config(
+    page_title="Hello",
+    page_icon="👋",
+)
 
 #ticker search feature in sidebar
 st.subheader("""Stock Tool Web App""")
