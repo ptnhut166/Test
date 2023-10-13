@@ -41,7 +41,7 @@ def main():
     
     #get daily volume for searched ticker
     st.subheader("""Daily **volume** for """ + selected_stock)
-    st.line_chart(stock_df.Volume)
+    st.line_chart(stock_df.Volume) 
 
     
 if __name__ == "__main__":

@@ -6,4 +6,4 @@ add_selectbox=st.sidebar.selectbox(
     ("Linear regression", "Logistic regression", "ARIMA","GRU","LSTM", "RNN","SSA")
 )
 
-st.line_chart(main.stock_df.Close)
+st.line_chart(main.stock_df.Volume)
