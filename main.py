@@ -48,8 +48,3 @@ if __name__ == "__main__":
     main()
 
 
-# Tạo biến toàn cục
-data = 30
-
-# In dữ liệu
-print(data)

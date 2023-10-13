@@ -6,8 +6,3 @@ add_selectbox=st.sidebar.selectbox(
     ("Linear regression", "Logistic regression", "ARIMA","GRU","LSTM", "RNN","SSA")
 )
 
-# Truy cập biến toàn cục
-data = globals()["data"]
-
-# In dữ liệu
-print(data)
