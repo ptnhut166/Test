@@ -6,4 +6,4 @@ add_selectbox=st.sidebar.selectbox(
     ("Linear regression", "Logistic regression", "ARIMA","GRU","LSTM", "RNN","SSA")
 )
 
-st.subheader(selected_stock)
+st.subheader("""Daily **volume** for """ + selected_stock)
