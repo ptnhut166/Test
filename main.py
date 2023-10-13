@@ -48,3 +48,8 @@ if __name__ == "__main__":
     main()
 
 
+# Tạo biến toàn cục
+data = {"name": "John Doe", "age": 30}
+
+# In dữ liệu
+print(data)
