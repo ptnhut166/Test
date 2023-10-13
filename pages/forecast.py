@@ -6,4 +6,4 @@ add_selectbox=st.sidebar.selectbox(
     ("Linear regression", "Logistic regression", "ARIMA","GRU","LSTM", "RNN","SSA")
 )
 
-st.line_chart(main.selected_stock)
+st(main.selected_stock)
