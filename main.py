@@ -11,6 +11,7 @@ st.set_page_config(
 #ticker search feature in sidebar
 st.subheader("""Stock Tool Web App""")
 selected_stock = st.text_input("Enter a valid stock ticker...")
+transfer=selected_stock
 button_clicked = st.button("SEARCH")
 if button_clicked == "SEARCH":
     main()
