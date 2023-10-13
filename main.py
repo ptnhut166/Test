@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 
 # Tạo biến toàn cục
-data = {"name": "John Doe", "age": 30}
+data = 30
 
 # In dữ liệu
 print(data)
