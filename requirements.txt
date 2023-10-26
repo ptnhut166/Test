@@ -1,5 +1,11 @@
-yfinance
-streamlit
-prophet
+requests
+pandas
+google-auth
+gspread
+gspread-dataframe
 plotly
+BeautifulSoup4
+streamlit
+streamlit_option_menu
+vnstock
 datetime
