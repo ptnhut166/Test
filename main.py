@@ -4,7 +4,7 @@ from vnstock import *
 from vnstock.chart import *
 import datetime
 from datetime import date
-from linear import linear
+
 
 
 
